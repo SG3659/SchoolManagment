@@ -7,3 +7,4 @@ router.post("/register", register);
 router.post("/login", ApiRateLimit, login);
 
 module.exports = router;
+
